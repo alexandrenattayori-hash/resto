@@ -1,0 +1,111 @@
+Crée un site web moderne, responsive et professionnel pour l’entreprise DELIA Corporate, une marque béninoise de cosmétiques naturels située à Gogounou, Nord Bénin.
+
+Le site doit refléter les valeurs de qualité, authenticité, engagement social et autonomisation des femmes.
+Le style doit être élégant, épuré et naturel, adapté au domaine de la cosmétique.
+
+🎨 Palette de couleurs (à utiliser de manière harmonieuse) :
+
+Vert principal : #2E7D32 (titres, éléments de marque, boutons secondaires)
+
+Jaune principal : #FBC02D (boutons CTA, éléments mis en avant)
+
+Gris clair : #F5F5F5 (fonds de sections alternées, arrière-plan doux)
+
+Blanc : #FFFFFF pour garder un rendu lumineux et minimaliste.
+
+📌 Pages du site
+1. Accueil
+
+Présentation de DELIA Corporate (mission : soigner, protéger et nourrir la peau avec des ingrédients locaux).
+
+Mise en avant du produit phare Savon de bain Depa Beauty avec photo, description brève et bouton “Commander maintenant”.
+
+Valeurs clés : naturel, local, social, durable.
+
+Témoignages courts visibles sur la page d’accueil.
+
+2. Produits / Boutique
+
+Catalogue clair et simple.
+
+Fiche produit complète pour Depa Beauty : bienfaits, ingrédients, mode d’utilisation, prix, bouton d’achat.
+
+Structure évolutive pour accueillir d’autres cosmétiques à l’avenir.
+
+3. À propos
+
+Histoire de DELIA Corporate.
+
+Présentation de la fondatrice et de l’équipe (3 femmes).
+
+Engagement social : formation et autonomisation des femmes.
+
+Valorisation des matières premières locales (karité, huiles essentielles).
+
+4. Contact
+
+Formulaire simple (Nom, Email, Message).
+
+Coordonnées : Gogounou – Nord Bénin, Téléphone, Email.
+
+Liens vers réseaux sociaux.
+
+5. Blog / Conseils beauté
+
+Section pour publier régulièrement des articles.
+
+Exemple d’articles pour le lancement :
+
+“3 bienfaits du beurre de karité pour une peau éclatante”
+
+“Pourquoi choisir des cosmétiques naturels plutôt que chimiques ?”
+
+6. FAQ
+
+Questions/réponses :
+
+Quels types de peaux peuvent utiliser Depa Beauty ?
+
+Quels sont les délais de livraison ?
+
+Proposez-vous des ventes en gros ?
+
+Vos produits sont-ils 100 % naturels ?
+
+7. Témoignages
+
+Avis clients avec photos si possible.
+
+Exemple :
+
+“Depuis que j’utilise Depa Beauty, ma peau est plus douce et mon teint est lumineux.” – Awa, Parakou
+
+“J’aime particulièrement l’odeur naturelle et la douceur du savon.” – Clarisse, Cotonou
+
+8. Landing page dédiée à Depa Beauty
+
+Titre fort : Redécouvrez l’éclat naturel de votre peau avec Depa Beauty.
+
+Bienfaits listés (nettoie, nourrit, protège, restaure le teint).
+
+Ingrédients naturels (karité, huiles locales).
+
+Impact social de l’achat (soutien à l’autonomisation des femmes locales).
+
+Appel à l’action clair et répété : Commander maintenant (boutons CTA en Jaune principal #FBC02D).
+
+🔑 Spécifications techniques et design
+
+Site responsive (mobile-first).
+
+Design minimaliste, moderne et naturel.
+
+Sections bien espacées avec beaucoup de blanc pour respirer.
+
+Boutons CTA en jaune principal avec texte blanc, hover en vert principal.
+
+Titres en vert principal, texte courant en gris foncé sur fond blanc.
+
+Arrière-plans de sections alternées en gris clair pour donner du rythme.
+
+👉 Génère le site complet avec cette structure, la palette de couleurs choisie et un design optimisé pour la conversion, le storytelling et la mise en valeur de la marque DELIA Corporate.

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DELIA Corporate - Cosmétiques Naturels Béninois</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .bg-primary {
+            background-color: #2E7D32;
+        }
+
+        .text-primary {
+            color: #2E7D32;
+        }
+
+        .bg-accent {
+            background-color: #FBC02D;
+        }
+
+        .text-accent {
+            color: #FBC02D;
+        }
+
+        .bg-light {
+            background-color: #F5F5F5;
+        }
+
+        .btn-primary {
+            background-color: #FBC02D;
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #2E7D32;
+        }
+
+        .btn-secondary {
+            background-color: #2E7D32;
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        .btn-secondary:hover {
+            background-color: #1B5E20;
+        }
+
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://static.photos/nature/1200x630/42');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+<nav  id="site-header" class="bg-white shadow-md sticky top-0 z-50 transition-transform duration-300">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="index.html" class="flex items-center">
+                 <img src="1.png" alt="Awa" class="w-16 h-16 rounded-full mr-4 ">
+                <span class="font-serif text-2xl font-bold text-primary">BISTRO</span>
+                <span class="font-serif text-2xl font-light ml-1">Parisien</span>
+            </a>
+
+            <div class="hidden md:flex space-x-8">
+                <a href="index.html" class="text-primary font-medium">Accueil</a>
+                <a href="produits.html" class="text-gray-600 hover:text-primary transition">Produits</a>
+                <a href="a-propos.html" class="text-gray-600 hover:text-primary transition">À propos</a>
+                <a href="blog.html" class="text-gray-600 hover:text-primary transition">Blog</a>
+                <a href="contact.html" class="text-gray-600 hover:text-primary transition">Contact</a>
+            </div>
+
+            <div class="flex items-center space-x-4">
+                <a href="#" class="text-gray-600 hover:text-primary">
+                    <i data-feather="shopping-cart"></i>
+                </a>
+                <button class="md:hidden focus:outline-none" id="menu-toggle">
+                    <i data-feather="menu"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile menu -->
+        <div class="md:hidden hidden bg-white w-full px-4 py-2 shadow-lg" id="mobile-menu">
+            <a href="index.html" class="block py-2 text-primary font-medium">Accueil</a>
+            <a href="produits.html" class="block py-2 text-gray-600 hover:text-primary transition">Produits</a>
+            <a href="a-propos.html" class="block py-2 text-gray-600 hover:text-primary transition">À propos</a>
+            <a href="blog.html" class="block py-2 text-gray-600 hover:text-primary transition">Blog</a>
+            <a href="contact.html" class="block py-2 text-gray-600 hover:text-primary transition">Contact</a>
+        </div>
+    </nav>
+
+    <script>
+  let lastScroll = 0;
+  const header = document.getElementById("site-header");
+
+  window.addEventListener("scroll", () => {
+    const currentScroll = window.pageYOffset;
+
+    if (currentScroll > lastScroll) {
+      // On descend → cacher le header
+      header.classList.add("-translate-y-full");
+    } else {
+      // On remonte → montrer le header
+      header.classList.remove("-translate-y-full");
+    }
+
+    lastScroll = currentScroll;
+  });
+</script>
+</body>
+
+
+</html>
